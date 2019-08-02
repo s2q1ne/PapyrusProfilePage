@@ -185,7 +185,7 @@ text-align: center;
 .card{
     display: flex;
     flex-direction: row;
-    margin-bottom: 4em;
+    margin-bottom: 5em;
 }
 
 .team_profile_name{
