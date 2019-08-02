@@ -14,6 +14,14 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'LotteMartDreamBold';
 }
 
+.grayton{
+    color: #6C6C6C;
+}
+
+.black{
+    color: black;
+}
+
 main{ 
     margin: 0;
     padding-bottom: 100px;
@@ -170,7 +178,7 @@ text-align: center;
 .cardtext{
     padding-right: 70px;
     white-space: normal;
-    color : black;
+    color : #6C6C6C;
 }
 
 .card{
@@ -229,4 +237,8 @@ text-align: center;
 
 #pdfdownload:hover{
     cursor: pointer;
+}
+
+.littledown{
+    margin-top: 15px;
 }
