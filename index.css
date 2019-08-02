@@ -179,6 +179,8 @@ text-align: center;
 .cardtext{
     padding-right: 70px;
     white-space: normal;
+    word-break: keep-all;
+    line-height: 29px;
     color : #6C6C6C;
 }
 
