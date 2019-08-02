@@ -160,7 +160,7 @@ text-align: center;
 }
 
 .project_profile{
-    margin-top: 34vh;
+    margin-top: calc( 15vh + 140px );
     padding: 80px;
     max-width: calc ( 100% - 160px );
 }
