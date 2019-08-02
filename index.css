@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6{
 
 main{ 
     margin: 0;
-    padding-bottom: 100px;
+    padding-bottom: 11vw;
     overflow: auto;
 }
 
@@ -58,14 +58,14 @@ main{
 }
 
 .nav{
-    position: fixed;
+    position: absolute;
     margin: 0;
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 24px;
     padding-bottom: 15px;
     top: 0;
-    width: calc( 100vw - 300px );
+    width: calc( 100% - 300px );
 }
 
 nav>*{
@@ -87,7 +87,7 @@ a{
 }
 
 #main{
-    width: 100vw;
+    width: 100%;
     height: 75vh;
     padding-top: calc( 5vh + 50px );
     padding-bottom: 10vh;
@@ -125,7 +125,7 @@ text-align: center;
     position: absolute;
     width: 50px;
     top: 84%;
-    left: calc( 50vw - 25px );
+    left: calc( 50% - 25px );
     margin: 0 auto;
     border: 0;
     background: none;
@@ -200,7 +200,7 @@ text-align: center;
 .history{
     position: relative;
     left: 4%;
-    margin-top: 0.23em;
+    margin-top: 0.1em;
     margin-bottom: 0.23em;
 }
 
@@ -241,4 +241,20 @@ text-align: center;
 
 .littledown{
     margin-top: 15px;
+}
+
+.bgbt>*{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
+}
+
+.bgbt{
+    position: relative;
+    bottom: -230px;
+}
+
+.lastcard{
+    margin-bottom: 0.3em;
 }
